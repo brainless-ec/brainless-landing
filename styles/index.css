@@ -106,18 +106,34 @@ video {
   background-image: url("../assets/images/10.gif");
 }
 
+.no11 {
+  background-image: url("../assets/images/11.gif");
+}
+
+.no12 {
+  background-image: url("../assets/images/12.gif");
+}
+
+.no13 {
+  background-image: url("../assets/images/13.gif");
+}
+
+.no14 {
+  background-image: url("../assets/images/14.gif");
+}
+
 .characteristics-animated {
   background-image: url("../assets/images/characteristics-animated.gif");
   position: absolute;
   width: 70%;
-  top: 89.5%;
+  top: 64.1%;
   left: 28%;
 }
 
 @media screen and (min-width: 768px) {
   .characteristics-animated {
     width: 70%;
-    top: 90.7%;
+    top: 65%;
     left: 28%;
   }
 }
