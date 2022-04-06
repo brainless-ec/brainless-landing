@@ -243,53 +243,53 @@ footer {
 }
 
 .social-web {
-  background-image: url("../assets/icons/BRAINLESS-1.gif");
+  background-image: url("../assets/icons/b1.svg");
 }
 
 .social-web:hover {
-  background-image: url("../assets/icons/BRAINLESS-2.gif");
+  background-image: url("../assets/icons/b2.svg");
 }
 
 .social-discord {
-  background-image: url("../assets/icons/DISCORD-1.gif");
+  background-image: url("../assets/icons/d1.svg");
 }
 
 .social-discord:hover {
-  background-image: url("../assets/icons/DISCORD-2.gif");
+  background-image: url("../assets/icons/d2.svg");
 }
 
 .social-instagram {
-  background-image: url("../assets/icons/INSTAGRAM-1.gif");
+  background-image: url("../assets/icons/i1.svg");
 }
 
 .social-instagram:hover {
-  background-image: url("../assets/icons/INSTAGRAM-2.gif");
+  background-image: url("../assets/icons/i2.svg");
 }
 
 .social-tiktok {
-  background-image: url("../assets/icons/TIKTOK-1.gif");
+  background-image: url("../assets/icons/tk1.svg");
 }
 
 .social-tiktok:hover {
-  background-image: url("../assets/icons/TIKTOK-2.gif");
+  background-image: url("../assets/icons/tk2.svg");
 }
 
 .social-twitter {
-  background-image: url("../assets/icons/TWITER-1.gif");
+  background-image: url("../assets/icons/t1.svg");
 }
 
 .social-twitter:hover {
-  background-image: url("../assets/icons/TWITER-2.gif");
+  background-image: url("../assets/icons/t2.svg");
 }
 
 .social-grid {
   position: absolute;
   bottom: 1.8%;
-  left: 58%;
+  left: 52%;
   justify-items: center;
   align-items: center;
   display: grid;
-  grid-template-columns: repeat(3, 5vw);
+  grid-template-columns: repeat(5, 5vw);
   grid-template-rows: 5vw;
   width: 15vw;
   height: 5vw;
