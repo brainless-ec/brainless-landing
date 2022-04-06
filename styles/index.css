@@ -101,14 +101,17 @@ footer {
 
 .no05 {
   background-image: url("../assets/images/5.gif");
+  margin-top: -1px;
 }
 
 .no06 {
   background-image: url("../assets/images/6.gif");
+  margin-top: -1px;
 }
 
 .no07 {
   background-image: url("../assets/images/7.gif");
+  margin-top: -1px;
 }
 
 .no08 {
@@ -117,26 +120,27 @@ footer {
 
 .no09 {
   background-image: url("../assets/images/9.gif");
+  margin-top: -1px;
 }
 
 .no10 {
   background-image: url("../assets/images/10.gif");
+  margin-top: -1px;
 }
 
 .no11 {
   background-image: url("../assets/images/11.gif");
+  margin-top: -1px;
 }
 
 .no12 {
   background-image: url("../assets/images/12.gif");
+  margin-top: -1px;
 }
 
 .no13 {
   background-image: url("../assets/images/13.gif");
-}
-
-.no14 {
-  background-image: url("../assets/images/14.gif");
+  margin-top: -1px;
 }
 
 .character-1 {
