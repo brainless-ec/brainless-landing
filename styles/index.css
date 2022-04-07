@@ -175,6 +175,11 @@ body {
   width: 100%;
 }
 
+
+.team-1 {
+  background-image: url("../assets/images/team-TEO-1.gif");
+}
+
 .team-2 {
   background-image: url("../assets/images/team-ALBANU-1.gif");
 }
@@ -200,27 +205,15 @@ body {
 }
 
 .team-8 {
-  background-image: url("../assets/images/team-MAC-1.gif");
-}
-
-.team-9 {
   background-image: url("../assets/images/team-OSO-1.gif");
 }
 
-.team-10 {
-  background-image: url("../assets/images/team-POLLO-1.gif");
-}
-
-.team-11 {
+.team-9 {
   background-image: url("../assets/images/team-SISA-1.gif");
 }
 
-.team-12 {
+.team-10 {
   background-image: url("../assets/images/team-TAMY-1.gif");
-}
-
-.team-1 {
-  background-image: url("../assets/images/team-TEO-1.gif");
 }
 
 .social-web {
@@ -271,7 +264,7 @@ body {
   align-items: center;
   display: grid;
   grid-template-columns: repeat(5, 5vw);
-  grid-template-rows: 5vw;
+  grid-template-rows: repeat(2, 5vw);
   width: 15vw;
   height: 5vw;
   grid-column-gap: 2vw;
