@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.835c0668.css",
-    "main.js": "/static/js/main.ae13ea41.js",
+    "main.js": "/static/js/main.a5bc431b.js",
     "static/media/this-is-brainless.mp4": "/static/media/this-is-brainless.e38d55b7776c1bcbb108.mp4",
     "static/media/header.mp4": "/static/media/header.9d6d7bb348c736628b20.mp4",
     "static/media/end_main.png": "/static/media/end_main.699c9bad4707e96fbb90.png",
@@ -46,7 +46,9 @@
     "static/media/esp.svg": "/static/media/esp.542b3f5f1ab0c839314501494e66eb44.svg",
     "static/media/rew-en.svg": "/static/media/rew-en.37f060d96ce74fccb81a365c07b053a0.svg",
     "static/media/eng.svg": "/static/media/eng.40adde7ebff9e1a072a3dd1018be915d.svg",
+    "static/media/et-en.svg": "/static/media/et-en.9d4316bdc4299694e20b2a7d8a06a7b6.svg",
     "static/media/te-es.svg": "/static/media/te-es.66b4a252e691031b7e8bebf7851438c1.svg",
+    "static/media/et-es.svg": "/static/media/et-es.9ed0a0a1f7d508392c1e84bb842faf88.svg",
     "static/media/st-en.svg": "/static/media/st-en.64b669b0a1ee3a4d4047edfb44ba03fa.svg",
     "static/media/lang.svg": "/static/media/lang.0fa67d5ffa4fc6a60fe0bd1569f07450.svg",
     "static/media/mint.svg": "/static/media/mint.947354611e5a4b08268953cb532f2456.svg",
@@ -63,10 +65,10 @@
     "static/media/i2.svg": "/static/media/i2.a88855366491d7b20230.svg",
     "index.html": "/index.html",
     "main.835c0668.css.map": "/static/css/main.835c0668.css.map",
-    "main.ae13ea41.js.map": "/static/js/main.ae13ea41.js.map"
+    "main.a5bc431b.js.map": "/static/js/main.a5bc431b.js.map"
   },
   "entrypoints": [
     "static/css/main.835c0668.css",
-    "static/js/main.ae13ea41.js"
+    "static/js/main.a5bc431b.js"
   ]
 }
