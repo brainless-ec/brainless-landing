@@ -136,32 +136,39 @@ export const MainWrapper = styled.div`
 
 export const NavBarWrapper = styled.div`
   display: flex;
-  align-items: center;
   width: 100vw;
   height: 3.5vw;
   background-color: #91fe00;
-  .lang-button-box {
+
+  .brainless-icons-box {
     display: flex;
-    justify-content: space-between;
-    margin: 0 1vw;
+    flex: 1;
   }
-  .lang-button {
-    cursor: pointer;
-    border: none;
-    background-color: #91fe00;
-    color: #fe48d3;
-    font-size: 2.5vw;
-    letter-spacing: 0.1vw;
+
+  .language-box {
+    display: flex;
+    flex: 1;
+    margin: 0 2vw;
+  }
+
+  .nav-items-box {
+    display: flex;
+    flex: 8;
+    justify-content: space-around;
+    align-items: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    .nav-button {
+      height: 100%;
+      width: 100%;
+      background: none;
+      border: none;
+    }
   }
 
   @media (min-width: ${mediaQueries.medium}) {
-    height: 2.5vw;
-    .lang-button-box {
-      margin: 0 0.5vw;
-    }
-    .lang-button {
-      font-size: 1.5vw;
-    }
   }
 `;
 
@@ -172,5 +179,35 @@ export const MainBackgroundImageContainer = styled.div`
   height: 0;
   width: 100vw;
   padding-top: 56.26%;
-  margin-top: -1px;
+  margin-top: -0.5px;
+`;
+
+export const NavIconImage = styled.div`
+  background-image: ${(props) => `url(${props.backgroundImage})`};
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 50%;
+`;
+
+export const NavItemImage = styled.li`
+  background-image: ${(props) => `url(${props.backgroundImage})`};
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 10%;
+`;
+
+export const BrainlessButton = styled.button`
+  background-image: ${(props) => `url(${props.backgroundImage})`};
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50%;
+  height: 100%;
+  background-color: #91fe00;
+  border: none;
+  cursor: pointer;
+  margin: 0.1vw;
 `;

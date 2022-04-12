@@ -1,12 +1,10 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import "./App.css";
 import NavBar from "./components/NavBar";
 import {
   MainWrapper,
   MainBackgroundImageContainer,
 } from "./components/styled-components";
-
-//
 import headerVideo from "./assets/images/header.mp4";
 import bottomVideo from "./assets/images/this-is-brainless.mp4";
 import image1_es from "./assets/background-es/1.gif";
@@ -35,11 +33,9 @@ import image10_en from "./assets/background-en/10.gif";
 import image11_en from "./assets/background-en/11.gif";
 import image12_en from "./assets/background-en/12.gif";
 import image13_en from "./assets/background-en/13.gif";
-//
 
 const App = () => {
   const [language, setLanguage] = useState("es");
-
   const handleLanguage = () => {
     if (language === "es") {
       setLanguage("en");
@@ -48,11 +44,36 @@ const App = () => {
     }
   };
 
+  const storyRef = useRef(null);
+  const storyScroll = () => storyRef.current.scrollIntoView();
+  const investorRef = useRef(null);
+  const investorScroll = () => investorRef.current.scrollIntoView();
+  const stagesRef = useRef(null);
+  const stagesScroll = () => stagesRef.current.scrollIntoView();
+  const benefitsRef = useRef(null);
+  const benefitScroll = () => benefitsRef.current.scrollIntoView();
+  const mintRef = useRef(null);
+  const mintScroll = () => mintRef.current.scrollIntoView();
+  const featRef = useRef(null);
+  const featScroll = () => featRef.current.scrollIntoView();
+  const rewardsRef = useRef(null);
+  const rewardsScroll = () => rewardsRef.current.scrollIntoView();
+  const teamRef = useRef(null);
+  const teamScroll = () => teamRef.current.scrollIntoView();
+
   return (
     <MainWrapper>
       <NavBar
         onClick={handleLanguage}
-        language={language === "es" ? "ESPAÑOL" : "ENGLISH"}
+        language={language}
+        storyScroll={storyScroll}
+        investorScroll={investorScroll}
+        stagesScroll={stagesScroll}
+        benefitScroll={benefitScroll}
+        mintScroll={mintScroll}
+        featScroll={featScroll}
+        rewardsScroll={rewardsScroll}
+        teamScroll={teamScroll}
       />
       <div className="video-container">
         <video autoPlay muted loop playsInline>
@@ -64,12 +85,15 @@ const App = () => {
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image2_es : image2_en}
+        ref={storyRef}
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image3_es : image3_en}
+        ref={investorRef}
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image4_es : image4_en}
+        ref={stagesRef}
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image5_es : image5_en}
@@ -79,21 +103,26 @@ const App = () => {
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image7_es : image7_en}
+        ref={benefitsRef}
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image8_es : image8_en}
+        ref={mintRef}
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image9_es : image9_en}
+        ref={featRef}
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image10_es : image10_en}
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image11_es : image11_en}
+        ref={rewardsRef}
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image12_es : image12_en}
+        ref={teamRef}
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image13_es : image13_en}
