@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.b380616d.css",
-    "main.js": "/static/js/main.330a190d.js",
+    "main.js": "/static/js/main.179f43bc.js",
     "static/media/this-is-brainless.mp4": "/static/media/this-is-brainless.e38d55b7776c1bcbb108.mp4",
     "static/media/header.mp4": "/static/media/header.9d6d7bb348c736628b20.mp4",
     "static/media/end_main.png": "/static/media/end_main.699c9bad4707e96fbb90.png",
     "static/media/2.gif": "/static/media/2.9ffbdddc78d53993d194.gif",
     "static/media/3.gif": "/static/media/3.6c3f38d6f70f7b856690.gif",
     "static/media/11.gif": "/static/media/11.7c2422c0dd74c8985c59.gif",
+    "static/media/10.gif": "/static/media/10.a1f9f249a4a1dc4d092c.gif",
     "static/media/6.gif": "/static/media/6.6ded858b1c8a0b0ec42d.gif",
     "static/media/9.gif": "/static/media/9.fca46c42b3a83d0bb940.gif",
-    "static/media/10.gif": "/static/media/10.a1f9f249a4a1dc4d092c.gif",
     "static/media/4.gif": "/static/media/4.f12a4f1e98570cef6c16.gif",
     "static/media/8.gif": "/static/media/8.fef0fe89fd9a976da997.gif",
     "static/media/5.gif": "/static/media/5.b83745223ea328d25cf4.gif",
@@ -74,10 +74,10 @@
     "static/media/i2.svg": "/static/media/i2.a88855366491d7b20230.svg",
     "index.html": "/index.html",
     "main.b380616d.css.map": "/static/css/main.b380616d.css.map",
-    "main.330a190d.js.map": "/static/js/main.330a190d.js.map"
+    "main.179f43bc.js.map": "/static/js/main.179f43bc.js.map"
   },
   "entrypoints": [
     "static/css/main.b380616d.css",
-    "static/js/main.330a190d.js"
+    "static/js/main.179f43bc.js"
   ]
 }
