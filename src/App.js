@@ -6,6 +6,7 @@ import {
   MainWrapper,
   MainBackgroundImageContainer,
   TeamImageContainer,
+  DiscordLink,
 } from "./components/styled-components";
 import headerVideo from "./assets/images/header.mp4";
 import bottomVideo from "./assets/images/this-is-brainless.mp4";
@@ -307,6 +308,28 @@ const App = () => {
           <div className="background-image socialbox social-web"></div>
         </a>
       </div>
+
+      <DiscordLink
+        className="discord-link"
+        href="https://discord.gg/PJG9HdXN"
+        target="_blank"
+        rel="noreferrer"
+        top={"56.22%"}
+        left={"39%"}
+      >
+        https://discord.gg/PJG9HdXN
+      </DiscordLink>
+
+      <DiscordLink
+        className="discord-link"
+        href="https://discord.gg/PJG9HdXN"
+        target="_blank"
+        rel="noreferrer"
+        top={"41.6%"}
+        left={"29%"}
+      >
+        https://discord.gg/PJG9HdXN
+      </DiscordLink>
     </MainWrapper>
   );
 };

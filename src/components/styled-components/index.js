@@ -251,7 +251,7 @@ export const NavItemImage = styled.li`
   background-repeat: no-repeat;
   background-position: center;
   width: 8vw;
-  height: 4vw;
+  height: 1.5vw;
 `;
 
 export const BrainlessButton = styled.button`
@@ -302,4 +302,17 @@ export const ModalImageContainer = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
+`;
+
+export const DiscordLink = styled.a`
+  font-size: 1vw;
+  color: black;
+  position: absolute;
+  top: ${(props) => (props.top ? props.top : 0)};
+  left: ${(props) => (props.left ? props.left : 0)};
+  z-index: 300;
+  font-style: italic;
+  &:hover {
+    color: rgba(254, 72, 211, 1);
+  }
 `;
