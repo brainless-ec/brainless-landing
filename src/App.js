@@ -134,6 +134,7 @@ const App = () => {
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image4_es : image4_en}
         ref={stagesRef}
+        marginTop="-0.1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image5_es : image5_en}
@@ -153,17 +154,21 @@ const App = () => {
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image9_es : image9_en}
         ref={featRef}
+        marginTop="-0.1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image10_es : image10_en}
+        marginTop="-0.1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image11_es : image11_en}
         ref={rewardsRef}
+        marginTop="-0.1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image12_es : image12_en}
         ref={teamRef}
+        marginTop="-0.1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image13_es : image13_en}
@@ -198,7 +203,7 @@ const App = () => {
         <TeamImageContainer
           backgroundImage={team_dario}
           onClick={() =>
-            showModal(dario, "Albanu", "https://www.instagram.com/juanbanu_gc/")
+            showModal(dario, "Dario", "https://www.instagram.com/darmaba/")
           }
         />
         <TeamImageContainer
@@ -248,7 +253,7 @@ const App = () => {
         <TeamImageContainer
           backgroundImage={team_oso}
           onClick={() =>
-            showModal(oso, "Oso", "hhttps://www.instagram.com/osoojara420/")
+            showModal(oso, "Oso", "https://www.instagram.com/osoojara420/")
           }
         />
       </div>
@@ -314,8 +319,8 @@ const App = () => {
         href="https://discord.gg/PJG9HdXN"
         target="_blank"
         rel="noreferrer"
-        top={"56.22%"}
-        left={"39%"}
+        top={"56.3%"}
+        left={"37%"}
       >
         https://discord.gg/PJG9HdXN
       </DiscordLink>
@@ -325,8 +330,8 @@ const App = () => {
         href="https://discord.gg/PJG9HdXN"
         target="_blank"
         rel="noreferrer"
-        top={"41.6%"}
-        left={"29%"}
+        top={"41.5%"}
+        left={"31%"}
       >
         https://discord.gg/PJG9HdXN
       </DiscordLink>

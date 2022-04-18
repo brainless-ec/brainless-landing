@@ -231,7 +231,7 @@ export const MainBackgroundImageContainer = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   height: 0;
-  width: 100vw;
+  width: 100%;
   padding-top: 56.26%;
   margin-top: ${(props) => (props.marginTop ? props.marginTop : "0")};
 `;
