@@ -1,33 +1,17 @@
 .character-1 {
   background-image: url("./assets/images/c1.gif");
-  position: absolute;
-  width: 20%;
-  top: 65.3%;
-  left: 27.9%;
 }
 
 .character-2 {
   background-image: url("./assets/images/c2.gif");
-  position: absolute;
-  width: 20%;
-  top: 65.8%;
-  left: 46.1%;
 }
 
 .character-3 {
   background-image: url("./assets/images/c3.gif");
-  position: absolute;
-  width: 20%;
-  top: 65%;
-  left: 63%;
 }
 
 .character-4 {
   background-image: url("./assets/images/c4.gif");
-  position: absolute;
-  width: 20%;
-  top: 65.7%;
-  left: 80%;
 }
 
 /* .team-grid {
@@ -50,53 +34,45 @@
   width: 100%;
 } */
 
-.team-2 {
-  background-image: url("./assets/images/team-ALBANU-1.gif");
-}
-
-.team-3 {
-  background-image: url("./assets/images/team-ALVARO-1.gif");
-}
-
-.team-4 {
-  background-image: url("./assets/images/team-DARIO-1.gif");
-}
-
-.team-5 {
+/* .team-fabri {
   background-image: url("./assets/images/team-FABRICIO-1.gif");
 }
 
-.team-6 {
-  background-image: url("./assets/images/team-FRANZ-1.gif");
+.team-albanu {
+  background-image: url("./assets/images/team-ALBANU-1.gif");
 }
 
-.team-7 {
-  background-image: url("./assets/images/team-JORDY-1.gif");
+.team-dario {
+  background-image: url("./assets/images/team-DARIO-1.gif");
 }
 
-.team-8 {
-  background-image: url("./assets/images/team-MAC-1.gif");
-}
-
-.team-9 {
-  background-image: url("./assets/images/team-OSO-1.gif");
-}
-
-.team-10 {
-  background-image: url("./assets/images/team-POLLO-1.gif");
-}
-
-.team-11 {
+.team-sisa {
   background-image: url("./assets/images/team-SISA-1.gif");
 }
 
-.team-12 {
+.team-carlitos {
+  background-image: url("./assets/images/team-CARLITOS-1.gif");
+}
+
+.team-alvaro {
+  background-image: url("./assets/images/team-ALVARO-1.gif");
+}
+
+.team-jordy {
+  background-image: url("./assets/images/team-JORDY-1.gif");
+}
+
+.team-teo {
+  background-image: url("./assets/images/team-TEO-1.gif");
+}
+
+.team-tamy {
   background-image: url("./assets/images/team-TAMY-1.gif");
 }
 
-.team-1 {
-  background-image: url("./assets/images/team-TEO-1.gif");
-}
+.team-oso {
+  background-image: url("./assets/images/team-OSO-1.gif");
+} */
 
 .social-web {
   background-image: url("./assets/icons/b1.svg");

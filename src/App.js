@@ -1,9 +1,11 @@
 import { useState, useRef } from "react";
 import "./App.css";
+import Modal from "./components/Modal";
 import NavBar from "./components/NavBar";
 import {
   MainWrapper,
   MainBackgroundImageContainer,
+  TeamImageContainer,
 } from "./components/styled-components";
 import headerVideo from "./assets/images/header.mp4";
 import bottomVideo from "./assets/images/this-is-brainless.mp4";
@@ -33,8 +35,33 @@ import image10_en from "./assets/background-en/10.gif";
 import image11_en from "./assets/background-en/11.gif";
 import image12_en from "./assets/background-en/12.gif";
 import image13_en from "./assets/background-en/13.gif";
+import team_fabricio from "./assets/images/team-FABRICIO-1.gif";
+import team_albanu from "./assets/images/team-ALBANU-1.gif";
+import team_dario from "./assets/images/team-DARIO-1.gif";
+import team_sisa from "./assets/images/team-SISA-1.gif";
+import team_carlitos from "./assets/images/team-CARLITOS-1.gif";
+import team_alvaro from "./assets/images/team-ALVARO-1.gif";
+import team_jordy from "./assets/images/team-JORDY-1.gif";
+import team_teo from "./assets/images/team-TEO-1.gif";
+import team_tamy from "./assets/images/team-TAMY-1.gif";
+import team_oso from "./assets/images/team-OSO-1.gif";
+
+import fabricio from "./assets/images/FABRICIO.gif";
+import albanu from "./assets/images/ALBANU.gif";
+import dario from "./assets/images/DARIO.gif";
+import sisa from "./assets/images/SISA.gif";
+import carlitos from "./assets/images/CARLITOS.gif";
+import alvaro from "./assets/images/ALVARO.gif";
+import jordy from "./assets/images/JORDY.gif";
+import teo from "./assets/images/TEO.gif";
+import tamy from "./assets/images/TAMY.gif";
+import oso from "./assets/images/OSO.gif";
 
 const App = () => {
+  const [show, setShow] = useState(false);
+  const [modalImage, setModalImage] = useState(null);
+  const [modalTitle, setModalTitle] = useState(null);
+  const [modalUrl, setModalUrl] = useState(null);
   const [language, setLanguage] = useState("es");
   const handleLanguage = () => {
     if (language === "es") {
@@ -42,6 +69,17 @@ const App = () => {
     } else {
       setLanguage("es");
     }
+  };
+
+  const showModal = (image, title, url) => {
+    setModalImage(image);
+    setModalTitle(title);
+    setModalUrl(url);
+    setShow(true);
+  };
+
+  const hideModal = () => {
+    setShow(false);
   };
 
   const storyRef = useRef(null);
@@ -82,6 +120,7 @@ const App = () => {
       </div>
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image1_es : image1_en}
+        marginTop="-1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image2_es : image2_en}
@@ -104,6 +143,7 @@ const App = () => {
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image7_es : image7_en}
         ref={benefitsRef}
+        marginTop="-0.1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image8_es : image8_en}
@@ -133,18 +173,91 @@ const App = () => {
       <div className="background-image character-3"></div>
       <div className="background-image character-4"></div>
 
-      {/* <div className="team-grid">
-        <div className="background-image team team-1"></div>
-        <div className="background-image team team-2"></div>
-        <div className="background-image team team-3"></div>
-        <div className="background-image team team-4"></div>
-        <div className="background-image team team-5"></div>
-        <div className="background-image team team-6"></div>
-        <div className="background-image team team-7"></div>
-        <div className="background-image team team-8"></div>
-        <div className="background-image team team-9"></div>
-        <div className="background-image team team-10"></div>
-      </div> */}
+      <div className="team-grid">
+        <TeamImageContainer
+          backgroundImage={team_fabricio}
+          onClick={() =>
+            showModal(
+              fabricio,
+              "Fabricio",
+              "https://www.instagram.com/fabriciobrainless/"
+            )
+          }
+        />
+        <TeamImageContainer
+          backgroundImage={team_albanu}
+          onClick={() =>
+            showModal(
+              albanu,
+              "Albanu",
+              "https://www.instagram.com/juanbanu_gc/"
+            )
+          }
+        />
+        <TeamImageContainer
+          backgroundImage={team_dario}
+          onClick={() =>
+            showModal(dario, "Albanu", "https://www.instagram.com/juanbanu_gc/")
+          }
+        />
+        <TeamImageContainer
+          backgroundImage={team_sisa}
+          onClick={() =>
+            showModal(sisa, "Sisa", "https://www.instagram.com/paul_sisalima/")
+          }
+        />
+        <TeamImageContainer
+          backgroundImage={team_carlitos}
+          onClick={() =>
+            showModal(
+              carlitos,
+              "Carlitos",
+              "https://www.instagram.com/carlitosvi92/"
+            )
+          }
+        />
+        <TeamImageContainer
+          backgroundImage={team_alvaro}
+          onClick={() =>
+            showModal(alvaro, "Alvaro", "https://www.instagram.com/alvapazz/")
+          }
+        />
+        <TeamImageContainer
+          backgroundImage={team_jordy}
+          onClick={() =>
+            showModal(jordy, "Jordy", "https://www.instagram.com/jordycues/")
+          }
+        />
+        <TeamImageContainer
+          backgroundImage={team_teo}
+          onClick={() =>
+            showModal(
+              teo,
+              "Teo",
+              "https://www.instagram.com/sebastiantorresll/"
+            )
+          }
+        />
+        <TeamImageContainer
+          backgroundImage={team_tamy}
+          onClick={() =>
+            showModal(tamy, "Tamy", "https://www.instagram.com/ceo.tamy/")
+          }
+        />
+        <TeamImageContainer
+          backgroundImage={team_oso}
+          onClick={() =>
+            showModal(oso, "Oso", "hhttps://www.instagram.com/osoojara420/")
+          }
+        />
+      </div>
+      <Modal
+        modalImage={modalImage}
+        modalTitle={modalTitle}
+        modalUrl={modalUrl}
+        handleClose={hideModal}
+        show={show}
+      />
 
       <div className="video-bottom">
         <video autoPlay muted loop playsInline>

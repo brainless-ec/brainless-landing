@@ -6,9 +6,7 @@ export const MainWrapper = styled.div`
     background-size: contain;
     background-repeat: no-repeat;
     height: 0;
-    width: 100vw;
     padding-top: 56.26%;
-    margin-top: -1px;
   }
 
   .video-container {
@@ -24,6 +22,7 @@ export const MainWrapper = styled.div`
     position: absolute;
     object-fit: contain;
     z-index: 0;
+    margin-top: -1%;
   }
 
   .video-bottom {
@@ -47,28 +46,28 @@ export const MainWrapper = styled.div`
   .character-1 {
     position: absolute;
     width: 20%;
-    top: 65.3%;
+    top: 65.5%;
     left: 27.9%;
   }
 
   .character-2 {
     position: absolute;
     width: 20%;
-    top: 65.8%;
+    top: 66%;
     left: 46.1%;
   }
 
   .character-3 {
     position: absolute;
     width: 20%;
-    top: 65%;
+    top: 65.2%;
     left: 63%;
   }
 
   .character-4 {
     position: absolute;
     width: 20%;
-    top: 65.7%;
+    top: 65.8%;
     left: 80%;
   }
 
@@ -76,22 +75,34 @@ export const MainWrapper = styled.div`
 
   .team-grid {
     position: absolute;
-    bottom: 23.5%;
+    bottom: 8%;
     left: 50%;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     justify-items: center;
     align-items: center;
     display: grid;
-    grid-template-columns: repeat(6, 12vw);
+    grid-template-columns: repeat(5, 12vw);
     grid-template-rows: repeat(2, 12vw);
     column-gap: 3vw;
     row-gap: 3vw;
   }
 
   .team {
+    position: relative;
     height: 100%;
     width: 100%;
+    cursor: pointer;
+    &:hover {
+      &:before {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        margin-top: -56.26%;
+        background: rgba(254, 72, 211, 0.5);
+      }
+    }
   }
 
   .social-grid {
@@ -103,7 +114,7 @@ export const MainWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(5, 5vw);
     grid-template-rows: 5vw;
-    width: 15vw;
+    width: 14vw;
     height: 5vw;
     grid-column-gap: 2vw;
   }
@@ -132,9 +143,52 @@ export const MainWrapper = styled.div`
 
   @media screen and (min-width: 1400px) {
   }
+
+  .modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 100;
+  }
+
+  .modal-main {
+    position: fixed;
+    color: white;
+    width: 50vw;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+
+    .modal-body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      a {
+        margin-right: 10%;
+      }
+    }
+  }
+
+  .display-block {
+    display: block;
+  }
+
+  .display-none {
+    display: none;
+  }
 `;
 
 export const NavBarWrapper = styled.div`
+  padding: 0.5vw;
   display: flex;
   width: 100vw;
   height: 3.5vw;
@@ -155,7 +209,7 @@ export const NavBarWrapper = styled.div`
     display: flex;
     flex: 8;
     justify-content: space-around;
-    align-items: space-around;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -179,7 +233,7 @@ export const MainBackgroundImageContainer = styled.div`
   height: 0;
   width: 100vw;
   padding-top: 56.26%;
-  margin-top: -0.5px;
+  margin-top: ${(props) => (props.marginTop ? props.marginTop : "0")};
 `;
 
 export const NavIconImage = styled.div`
@@ -196,7 +250,8 @@ export const NavItemImage = styled.li`
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 10%;
+  width: 8vw;
+  height: 4vw;
 `;
 
 export const BrainlessButton = styled.button`
@@ -210,4 +265,41 @@ export const BrainlessButton = styled.button`
   border: none;
   cursor: pointer;
   margin: 0.1vw;
+`;
+
+export const TeamImageContainer = styled.div`
+  background-image: ${(props) => `url(${props.backgroundImage})`};
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 0;
+  width: 100vw;
+  padding-top: 56.26%;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  &:hover {
+    &:before {
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      margin-top: -56.26%;
+      background: rgba(254, 72, 211, 0.5);
+    }
+  }
+`;
+
+export const ModalImageContainer = styled.div`
+  background-image: ${(props) => `url(${props.backgroundImage})`};
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 56.26%;
+  cursor: pointer;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
 `;
