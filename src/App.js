@@ -63,7 +63,7 @@ const App = () => {
   const [modalImage, setModalImage] = useState(null);
   const [modalTitle, setModalTitle] = useState(null);
   const [modalUrl, setModalUrl] = useState(null);
-  const [language, setLanguage] = useState("es");
+  const [language, setLanguage] = useState("en");
   const handleLanguage = () => {
     if (language === "es") {
       setLanguage("en");
