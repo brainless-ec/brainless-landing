@@ -2,7 +2,6 @@
 import React from "react";
 import {
   NavBarWrapper,
-  NavIconImage,
   NavItemImage,
   BrainlessButton,
 } from "../styled-components";

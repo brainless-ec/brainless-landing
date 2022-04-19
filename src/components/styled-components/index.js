@@ -209,7 +209,7 @@ export const NavBarWrapper = styled.div`
       justify-content: space-around;
 
       img {
-        max-width: 10rem;
+        width: auto;
       }
     }
   }
