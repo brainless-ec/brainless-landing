@@ -3,7 +3,7 @@ import mediaQueries from "../constants/mediaQueries";
 
 export const MainWrapper = styled.div`
   .background-wrapper {
-    margin-top: -0.5%;
+    margin-top: -0.6%;
     height: auto;
   }
 
@@ -238,7 +238,7 @@ export const MainBackgroundImageContainer = styled.div`
   height: 0;
   width: 100%;
   padding-top: 56.26%;
-  margin-top: ${(props) => (props.marginTop ? props.marginTop : "-0%")};
+  margin-top: ${(props) => (props.marginTop ? props.marginTop : "-0.15%")};
 `;
 
 export const NavIconImage = styled.div`

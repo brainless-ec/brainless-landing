@@ -126,58 +126,46 @@ const App = () => {
         <MainBackgroundImageContainer
           backgroundImage={language === "es" ? image2_es : image2_en}
           ref={storyRef}
-          marginTop="-0.19%"
         />
         <MainBackgroundImageContainer
           backgroundImage={language === "es" ? image3_es : image3_en}
           ref={investorRef}
-          marginTop="-0.5%"
         />
         <MainBackgroundImageContainer
           backgroundImage={language === "es" ? image4_es : image4_en}
           ref={stagesRef}
-          marginTop="-0.5%"
         />
         <MainBackgroundImageContainer
           backgroundImage={language === "es" ? image5_es : image5_en}
-          marginTop="-0.1%"
         />
         <MainBackgroundImageContainer
           backgroundImage={language === "es" ? image6_es : image6_en}
-          marginTop="-0.5%"
         />
         <MainBackgroundImageContainer
           backgroundImage={language === "es" ? image7_es : image7_en}
           ref={benefitsRef}
-          marginTop="-0.5%"
         />
         <MainBackgroundImageContainer
           backgroundImage={language === "es" ? image8_es : image8_en}
           ref={mintRef}
-          marginTop="-0.5%"
         />
         <MainBackgroundImageContainer
           backgroundImage={language === "es" ? image9_es : image9_en}
           ref={featRef}
-          marginTop="-0.5%"
         />
         <MainBackgroundImageContainer
           backgroundImage={language === "es" ? image10_es : image10_en}
-          marginTop="-0.5%"
         />
         <MainBackgroundImageContainer
           backgroundImage={language === "es" ? image11_es : image11_en}
           ref={rewardsRef}
-          marginTop="-0.5%"
         />
         <MainBackgroundImageContainer
           backgroundImage={language === "es" ? image12_es : image12_en}
           ref={teamRef}
-          marginTop="-0.5%"
         />
         <MainBackgroundImageContainer
           backgroundImage={language === "es" ? image13_es : image13_en}
-          marginTop="-0.5%"
         />
       </div>
 
