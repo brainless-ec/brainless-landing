@@ -50,8 +50,15 @@ const NavBar = ({
           target="_blank"
           rel="noreferrer"
         >
-          <NavIconImage src={brainlessMainImageEn}></NavIconImage>
-          <NavIconImage src={endMainImageEn}></NavIconImage>
+          <img src={brainlessMainImageEn} alt="brainless skull" />
+        </a>
+        <a
+          className="brain-nav"
+          href="https://www.brainlessclothing.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={endMainImageEn} alt="end of paradise logo" />
         </a>
       </div>
       <div className="language-box">

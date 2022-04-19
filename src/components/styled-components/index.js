@@ -207,6 +207,10 @@ export const NavBarWrapper = styled.div`
       flex: 1;
       display: flex;
       justify-content: space-around;
+
+      img {
+        max-width: 10rem;
+      }
     }
   }
 
@@ -246,8 +250,6 @@ export const MainBackgroundImageContainer = styled.div`
   padding-top: 56.26%;
   margin-top: ${(props) => (props.marginTop ? props.marginTop : "-0.15%")};
 `;
-
-export const NavIconImage = styled.img``;
 
 export const NavItemImage = styled.li`
   background-image: ${(props) => `url(${props.backgroundImage})`};
