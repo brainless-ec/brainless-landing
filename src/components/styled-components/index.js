@@ -204,7 +204,7 @@ export const NavBarWrapper = styled.div`
     flex: 1;
 
     a {
-      width: 100%;
+      flex: 1;
       display: flex;
       justify-content: space-around;
     }
