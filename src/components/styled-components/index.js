@@ -210,7 +210,7 @@ export const NavBarWrapper = styled.div`
 
       img {
         width: auto;
-        height: auto;
+        height: 2.5vw;
       }
     }
   }
