@@ -121,7 +121,6 @@ const App = () => {
       </div>
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image1_es : image1_en}
-        marginTop="-1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image2_es : image2_en}
@@ -134,7 +133,6 @@ const App = () => {
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image4_es : image4_en}
         ref={stagesRef}
-        marginTop="-0.1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image5_es : image5_en}
@@ -145,7 +143,6 @@ const App = () => {
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image7_es : image7_en}
         ref={benefitsRef}
-        marginTop="-0.1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image8_es : image8_en}
@@ -154,21 +151,17 @@ const App = () => {
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image9_es : image9_en}
         ref={featRef}
-        marginTop="-0.1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image10_es : image10_en}
-        marginTop="-0.1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image11_es : image11_en}
         ref={rewardsRef}
-        marginTop="-0.1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image12_es : image12_en}
         ref={teamRef}
-        marginTop="-0.1%"
       />
       <MainBackgroundImageContainer
         backgroundImage={language === "es" ? image13_es : image13_en}
@@ -273,7 +266,7 @@ const App = () => {
 
       <div className="social-grid">
         <a
-          href="https://discord.gg/PJG9HdXN"
+          href="discord.gg/34ryXxjNUy"
           className="social"
           target="_blank"
           rel="noreferrer"
@@ -316,24 +309,24 @@ const App = () => {
 
       <DiscordLink
         className="discord-link"
-        href="https://discord.gg/PJG9HdXN"
+        href="discord.gg/34ryXxjNUy"
         target="_blank"
         rel="noreferrer"
         top={"56.3%"}
         left={"37%"}
       >
-        https://discord.gg/PJG9HdXN
+        discord.gg/34ryXxjNUy
       </DiscordLink>
 
       <DiscordLink
         className="discord-link"
-        href="https://discord.gg/PJG9HdXN"
+        href="discord.gg/34ryXxjNUy"
         target="_blank"
         rel="noreferrer"
         top={"41.5%"}
         left={"31%"}
       >
-        https://discord.gg/PJG9HdXN
+        discord.gg/34ryXxjNUy
       </DiscordLink>
     </MainWrapper>
   );

@@ -22,7 +22,7 @@ export const MainWrapper = styled.div`
     position: absolute;
     object-fit: contain;
     z-index: 0;
-    margin-top: -1%;
+    margin-top: -0.5%;
   }
 
   .video-bottom {
@@ -157,7 +157,7 @@ export const MainWrapper = styled.div`
   .modal-main {
     position: fixed;
     color: white;
-    width: 50vw;
+    width: 75vw;
     height: auto;
     top: 50%;
     left: 50%;
@@ -233,7 +233,7 @@ export const MainBackgroundImageContainer = styled.div`
   height: 0;
   width: 100%;
   padding-top: 56.26%;
-  margin-top: ${(props) => (props.marginTop ? props.marginTop : "0")};
+  margin-top: ${(props) => (props.marginTop ? props.marginTop : "-0.55%")};
 `;
 
 export const NavIconImage = styled.div`
@@ -305,7 +305,7 @@ export const ModalImageContainer = styled.div`
 `;
 
 export const DiscordLink = styled.a`
-  font-size: 1vw;
+  font-size: 1.2vw;
   color: black;
   position: absolute;
   top: ${(props) => (props.top ? props.top : 0)};
