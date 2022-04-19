@@ -44,9 +44,15 @@ const NavBar = ({
   return (
     <NavBarWrapper>
       <div className="brainless-icons-box">
-        <NavIconImage backgroundImage={brainlessMainImageEn}></NavIconImage>
-        <NavIconImage backgroundImage={endMainImageEn}></NavIconImage>
-        <div></div>
+        <a
+          className="brain-nav"
+          href="https://www.brainlessclothing.com"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <NavIconImage src={brainlessMainImageEn}></NavIconImage>
+          <NavIconImage src={endMainImageEn}></NavIconImage>
+        </a>
       </div>
       <div className="language-box">
         <BrainlessButton

@@ -268,7 +268,7 @@ const App = () => {
 
       <div className="social-grid">
         <a
-          href="discord.gg/34ryXxjNUy"
+          href="https://discord.gg/34ryXxjNUy"
           className="social"
           target="_blank"
           rel="noreferrer"
@@ -311,7 +311,7 @@ const App = () => {
 
       <DiscordLink
         className="discord-link"
-        href="discord.gg/34ryXxjNUy"
+        href="https://discord.gg/34ryXxjNUy"
         target="_blank"
         rel="noreferrer"
         top={"56.3%"}
@@ -322,7 +322,7 @@ const App = () => {
 
       <DiscordLink
         className="discord-link"
-        href="discord.gg/34ryXxjNUy"
+        href="https://discord.gg/34ryXxjNUy"
         target="_blank"
         rel="noreferrer"
         top={"41.5%"}

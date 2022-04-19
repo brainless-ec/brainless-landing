@@ -202,6 +202,12 @@ export const NavBarWrapper = styled.div`
   .brainless-icons-box {
     display: flex;
     flex: 1;
+
+    a {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+    }
   }
 
   .language-box {
@@ -241,14 +247,7 @@ export const MainBackgroundImageContainer = styled.div`
   margin-top: ${(props) => (props.marginTop ? props.marginTop : "-0.15%")};
 `;
 
-export const NavIconImage = styled.div`
-  background-image: ${(props) => `url(${props.backgroundImage})`};
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100%;
-  width: 50%;
-`;
+export const NavIconImage = styled.img``;
 
 export const NavItemImage = styled.li`
   background-image: ${(props) => `url(${props.backgroundImage})`};
