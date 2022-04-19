@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b380616d.css",
-    "main.js": "/static/js/main.407e41d3.js",
+    "main.js": "/static/js/main.13828fdf.js",
     "static/media/this-is-brainless.mp4": "/static/media/this-is-brainless.e38d55b7776c1bcbb108.mp4",
     "static/media/header.mp4": "/static/media/header.9d6d7bb348c736628b20.mp4",
     "static/media/end_main.png": "/static/media/end_main.699c9bad4707e96fbb90.png",
@@ -12,7 +12,7 @@
     "static/media/6.gif": "/static/media/6.6ded858b1c8a0b0ec42d.gif",
     "static/media/9.gif": "/static/media/9.fca46c42b3a83d0bb940.gif",
     "static/media/4.gif": "/static/media/4.f12a4f1e98570cef6c16.gif",
-    "static/media/8.gif": "/static/media/8.fef0fe89fd9a976da997.gif",
+    "static/media/8.gif": "/static/media/8.d2c3a04e0e148953b9ba.gif",
     "static/media/5.gif": "/static/media/5.b83745223ea328d25cf4.gif",
     "static/media/1.gif": "/static/media/1.cfd7a1309a477a9ea4fe.gif",
     "static/media/7.gif": "/static/media/7.262849e5c4be95d87965.gif",
@@ -74,10 +74,10 @@
     "static/media/i2.svg": "/static/media/i2.a88855366491d7b20230.svg",
     "index.html": "/index.html",
     "main.b380616d.css.map": "/static/css/main.b380616d.css.map",
-    "main.407e41d3.js.map": "/static/js/main.407e41d3.js.map"
+    "main.13828fdf.js.map": "/static/js/main.13828fdf.js.map"
   },
   "entrypoints": [
     "static/css/main.b380616d.css",
-    "static/js/main.407e41d3.js"
+    "static/js/main.13828fdf.js"
   ]
 }
