@@ -314,8 +314,8 @@ const App = () => {
         href="https://discord.gg/34ryXxjNUy"
         target="_blank"
         rel="noreferrer"
-        top={"56.3%"}
-        left={"37%"}
+        top={language === "en" ? "56.3%" : "56.25%"}
+        left={language === "en" ? "37%" : "39%"}
       >
         discord.gg/34ryXxjNUy
       </DiscordLink>
@@ -325,8 +325,8 @@ const App = () => {
         href="https://discord.gg/34ryXxjNUy"
         target="_blank"
         rel="noreferrer"
-        top={"41.5%"}
-        left={"31%"}
+        top={language === "en" ? "41.5%" : "41.6%"}
+        left={language === "en" ? "31%" : "29%"}
       >
         discord.gg/34ryXxjNUy
       </DiscordLink>
